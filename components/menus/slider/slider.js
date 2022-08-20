@@ -27,27 +27,20 @@ const ImageSlider = ({ slides }) => {
   return (
     
     <Box >
-            {SliderData.map((slide, index) => {
-
-               
-
-              return(
-    <Paper>
-                <Box
-                    className={index === current ? 'slide active' : 'slide'}
-                    key={index}
-                    sx={{ display: 'flex', flex: 1, justifyContent: 'center', overflow: 'hidden', borderRadius: 1}}
-                >
-                    {index === current && (
-                        <Box sx={{display: 'flex', flex: 1, justifyContent: 'center', height: 300}}>
-                            <Image src={slide.image} objectFit="cover" layout="fill" />
-          
-                        </Box>
-                    )}
-                </Box>
-    </Paper>
-      )
-            })}
+            {SliderData.map((slide, index) => (
+                <Paper key={index}>
+                            <Box
+                                className={index === current ? 'slide active' : 'slide'}
+                                sx={{ display: 'flex', flex: 1, justifyContent: 'center', overflow: 'hidden', borderRadius: 1}}
+                            >
+                                {index === current && (
+                                    <Box sx={{display: 'flex', flex: 1, justifyContent: 'center', height: 300}}>
+                                        <Image src={slide.image} objectFit="cover" alt="news" layout="fill" />
+                                    </Box>
+                                )}
+                            </Box>
+                </Paper>
+            ))}
                 <ArrowLeft sx={{width: 50, height: 50 }} onClick={prevSlide} />
                 <ArrowRight sx={{width: 50, height: 50 }} onClick={nextSlide} />                     
         </Box>
