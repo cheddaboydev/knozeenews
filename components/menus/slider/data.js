@@ -1,6 +1,6 @@
 export const SliderData = [
     {
-      image:'https://images.unsplash.com/photo-1546768292-fb12f6c92568?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1350&q=80',
+      image:'https://static.foxnews.com/foxnews.com/content/uploads/2021/09/Crime-scene.jpg',
       title: 'Title 1',
       description: 'This is the description for the first image'
     },
@@ -16,19 +16,19 @@ export const SliderData = [
 
   export const CardData = [
     {
-      image:"https://storage.googleapis.com/afs-prod/media/07baa19390fe4369913d5627391b747c/1000.jpeg",
-      title: "Poland nabs octogenarian with 5 kilos of heroin in suitcase",
-      description: "WARSAW, Poland (AP) — A 81-year-old Danish woman traveling from Africa to Canada was arrested at Warsaw airport on suspicion of illegal possession of heroin worth over $515,000, officials in Poland said Friday."
+      image:"https://www.dailynews.com/wp-content/uploads/2022/08/breaking_news_04-2.jpg?w=140",
+      title: "28 arrested in series of South LA gang raids as guns, drugs and cash are seized",
+      description: "LOS ANGELES — Twenty-eight alleged members and associates of a South Los Angeles street gang were arrested Thursday in a series of raids carried out by a multi-agency task force acting in response to federal indictments alleging crimes including racketeering, extortion of local businesses and drug and weapons trafficking."
     },
     {
-      image:"https://c.ndtvimg.com/2022-08/17mo8uq8_knife-in-subway-order_625x300_17_August_22.jpg?im=FaceCrop,algorithm=dnn,width=620,height=350",
-      title: "Shocking! Woman Finds Knife Inside Her Subway Meal - Watch Video",
-      description: "Watch: A woman ordered a sandwich from Subway and found a knife along the sub. She uploaded the video on Facebook."
+      image:"https://www.dailynews.com/wp-content/uploads/2022/07/hypatia-h_76b33652fbff67b9b09bfdbe2b933b02-h_7f988700519a19939d6900e9d773c135.jpg?w=1020",
+      title: "$3.7 million of fentanyl found in car tire, gas tank near California-Mexico border; man arrested",
+      description: "US Border Patrol agents arrested a man allegedly attempting to smuggle approximately 250 pounds of fentanyl in his truck’s spare tire and gas tank near the Mexican-California border Monday, the agency said."
     },
     {
-      image:"https://www.mlive.com/resizer/2MDOfCpc49wloX0m5A4SrTrgQI4=/1280x0/smart/cloudfront-us-east-1.images.arcpublishing.com/advancelocal/WMPRPYRFLFE35N4IAHKCQXBW3E.jpg",
-      title: "Saginaw police looking for 2 men who have been stealing rent checks from apartment deposit boxes",
-      description: "Two men on Aug. 5 stolen rent checks from deposit boxes at Bridgton Place Townhomes, 359 Vestry Drive in Saginaw. They did so not by breaking open the collection boxes but by fishing the checks from slots in them, said Saginaw Police Detective Sgt. Matthew Gerow."
+      image:"https://a57.foxnews.com/static.foxnews.com/foxnews.com/content/uploads/2022/08/720/405/KELLY-GOODLETT-BREONNA-TAYLOR.jpg?ve=1&tl=1",
+      title: "Breonna Taylor death: Former Louisville detective pleads guilty to falsifying affidavit for raid",
+      description: "A former Louisville, Kentucky, detective pleaded guilty on Tuesday to a federal civil rights charge for allegedly helping to falsify an affidavit for the search that lead to the 2020 fatal shooting of Breonna Taylor."
     },
     {
       image:"https://www.mlive.com/resizer/dSmr84KgNNyZpivTHQ67UtCeOUo=/800x0/smart/cloudfront-us-east-1.images.arcpublishing.com/advancelocal/PRNAUEFT6RA2VA7362VXPDHN5Q.JPG",

@@ -9,7 +9,11 @@ const nextConfig = {
       "c.ndtvimg.com",
       "www.mlive.com",
       "townsquare.media",
-      "media-cldnry.s-nbcnews.com"
+      "media-cldnry.s-nbcnews.com",
+      'i.imgflip.com',
+      'www.dailynews.com',
+      'www.foxnews.com',
+      'static.foxnews.com'
     ]
  }
 }
