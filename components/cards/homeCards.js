@@ -13,8 +13,8 @@ export default function HomeCard({article}) {
       <CardMedia
         component="img"
         height="140"
-        image={article.image}
-        alt="green iguana"
+        image={article.urlToImage}
+        alt="image"
       />
       <CardContent>
         <Typography sx={{fontWeight: 'bold'}}>
